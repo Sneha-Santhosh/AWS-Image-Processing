@@ -1,0 +1,210 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SnehaSanthosh_Lab4_Serverless/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.2.2",
+          "AWSSDK.Rekognition": "3.7.6.2",
+          "AWSSDK.S3": "3.7.7.3",
+          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.S3Events": "2.0.1",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.2.0",
+          "GrapeCity.Documents.Imaging": "5.0.0.762"
+        },
+        "runtime": {
+          "SnehaSanthosh_Lab4_Serverless.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.S3Events/2.0.1": {
+        "dependencies": {
+          "AWSSDK.S3": "3.7.7.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.S3Events.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.2.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.5.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.5.6"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.2.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.5.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.2"
+          }
+        }
+      },
+      "AWSSDK.Rekognition/3.7.6.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.5.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.6.2"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.7.3": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.5.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.7.3"
+          }
+        }
+      },
+      "GrapeCity.Documents.Imaging/5.0.0.762": {
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Memory": "4.5.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GrapeCity.Documents.Imaging.dll": {
+            "assemblyVersion": "5.0.0.762",
+            "fileVersion": "5.0.0.762"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ja/GrapeCity.Documents.Imaging.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "System.Buffers/4.4.0": {},
+      "System.Memory/4.5.0": {},
+      "System.Numerics.Vectors/4.4.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "SnehaSanthosh_Lab4_Serverless/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ok06UhfBZw6j6+PhiJR9C0EOMuJvnq8rMCHVkaFmPFrlI/q447ukwGZQKaAKqodV+MNTfpb/iPxjgUPVbSlVVw==",
+      "path": "amazon.lambda.core/2.1.0",
+      "hashPath": "amazon.lambda.core.2.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.S3Events/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGEMrodAzXzfrQI0AAUP7Wckmh3AvdOsuNQVF0kVYAX1b3jI0YkAcIkixCzkheDHRf1SUF3ROFilYv+JO2SDhg==",
+      "path": "amazon.lambda.s3events/2.0.1",
+      "hashPath": "amazon.lambda.s3events.2.0.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ENIKiMBVUegIbwHwg4P0XjJKXazTlCS05bqRKrn9BTUWDZQjPp5RaFs1h2+22H4SiqWosNxKrNCeiXyHJnwOHw==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.2.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.5.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y94vfm4jcNAwgwjSqvja2ifPJbU2uK/Kpnu74SjRIgbXCHNnDfr073UhwIqeOWgoQHujggLTJn4JnEh0ImJung==",
+      "path": "awssdk.core/3.7.5.6",
+      "hashPath": "awssdk.core.3.7.5.6.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SbLHRa2JaumUx4EljFs407MU3g/Y8jLnfr2Vzk0CWIG0KdJZh50TzlXnJg6XRfX8kZe9oQsUKfviIATMEaCHeg==",
+      "path": "awssdk.dynamodbv2/3.7.2.2",
+      "hashPath": "awssdk.dynamodbv2.3.7.2.2.nupkg.sha512"
+    },
+    "AWSSDK.Rekognition/3.7.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bIWwmt8usqxRf914mw2o2+H/HYVs1xBkN7uzSJmyr6lnSkO5w7Tn4eZLgASkB4t8wsSDQIv5KfQ6nFfMyezHng==",
+      "path": "awssdk.rekognition/3.7.6.2",
+      "hashPath": "awssdk.rekognition.3.7.6.2.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JqoYHUB4OXrl4M4PbGsocYu9Io9bXeynPPg/a9hsEicuPPreuKn1kOXHtORmrddtuPQr5MwN5hCX13Sn4vyc9w==",
+      "path": "awssdk.s3/3.7.7.3",
+      "hashPath": "awssdk.s3.3.7.7.3.nupkg.sha512"
+    },
+    "GrapeCity.Documents.Imaging/5.0.0.762": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nbEuUx/1B/SSCPv9WTJrPEeMfWkAhNvW60vybRxNdXHKKMmaOYixHsMsuo/IP3mVfsSvoMPPa2Pl6jqLOj6+kg==",
+      "path": "grapecity.documents.imaging/5.0.0.762",
+      "hashPath": "grapecity.documents.imaging.5.0.0.762.nupkg.sha512"
+    },
+    "System.Buffers/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "path": "system.buffers/4.4.0",
+      "hashPath": "system.buffers.4.4.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m0psCSpUxTGfvwyO0i03ajXVhgBqyXlibXz0Mo1dtKGjaHrXFLnuQ8rNBTmWRqbfRjr4eC6Wah4X5FfuFDu5og==",
+      "path": "system.memory/4.5.0",
+      "hashPath": "system.memory.4.5.0.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "path": "system.numerics.vectors/4.4.0",
+      "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+    }
+  }
+}
