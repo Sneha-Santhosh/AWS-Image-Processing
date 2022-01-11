@@ -1,6 +1,6 @@
-# Step Functions Hello World
+# Step Functions - Image Processing
 
-This starter project consists of:
+This project consists of:
 
 * serverless.template - An AWS CloudFormation template file for declaring your Serverless functions and other AWS resources
 * state-machine.json -The definition of the Step Function state machine.
